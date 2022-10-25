@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import Meals from "./Meals";
-import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React from "react";
+
+import { Link } from "react-router-dom";
 
 function NavBar({ user, setUser }) {
   function handleLogoutClick() {

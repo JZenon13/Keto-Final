@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import AddReview from "./AddReview";
 import ReviewCard from "./ReviewCard";
 
-function MealCard({ meal, user, setMeals, setDeleteItem }) {
+function MealCard({ meal, user, setDeleteItem }) {
   const [oneReview, setOneReview] = useState(false);
   const [loadReview, setLoadReview] = useState([]);
   const [addReview, setAddReview] = useState(false);

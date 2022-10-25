@@ -6,13 +6,6 @@ function ItemInfo({ items, setNewMealItems, newMealItems }) {
   const [button, setButton] = useState(false);
   const [item, setItem] = useState(true);
 
-  // useEffect(() => {
-  //   fetch("/items")
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       setAllItems(data);
-  //     });
-  // }, []);
   const handleClick = () => {
     setOneItem(!oneItem);
     setButton(!button);
